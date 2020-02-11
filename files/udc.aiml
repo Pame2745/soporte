@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml>
-  <category>
-    <pattern>*</pattern>
-    <template>I have no answer for that.</template>
-  </category>
+  
+<category>
+    <pattern>hola</pattern>
+    <template>Bienvenido a nuestro sitio web</template>
+</category>
+
+<category><pattern>buenos dias</pattern><template><srai>HOLA</srai></template></category>
+<category><pattern>buenas tardes</pattern><template><srai>HOLA</srai></template></category>
+<category><pattern>que tal</pattern><template><srai>HOLA</srai></template></category>
+<category><pattern>como va</pattern><template><srai>HOLA</srai></template></category>
+<category><pattern>hello</pattern><template><srai>HOLA</srai></template></category>
+<category><pattern>hi</pattern><template><srai>HOLA</srai></template></category>
+<category><pattern>que onda</pattern><template><srai>HOLA</srai></template></category>
+<category><pattern>que es </pattern><template><srai>HOLA</srai></template></category>
+
+<category>
+    <pattern>de que se trata esto</pattern>
+    <template>Nuestro sistema estÃ¡ orientado al desarrollo de aplicaciones mÃ³vilesÂ 
+<image>https://widget.pandorabots.com/prod/assets/pb-robot.svg</image></template>
+</category>
+
+<category><pattern>de que trata</pattern><template><srai>DE QUE SE TRATA ESTO</srai></template></category>
+<category><pattern>que es</pattern><template><srai>DE QUE SE TRATA ESTO</srai></template></category>
+
+<category><pattern>como funciona</pattern><template><srai>DE QUE SE TRATA ESTO</srai></template></category>
+<category><pattern>que ofrecen</pattern><template><srai>DE QUE SE TRATA ESTO</srai></template></category>
+
 </aiml>
